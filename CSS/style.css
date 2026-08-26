@@ -225,9 +225,10 @@ nav  ul#user_info {
 }
 .card img {
   width: 100%;
-  padding-bottom: 10px;
+  padding: 10px;
   height: clamp(220px, 25vw, 300px);
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #ffffff;
   border-radius: 8px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -238,6 +239,8 @@ nav  ul#user_info {
 .cart_item img{
   height: 100%;
   width: 45%;
+  object-fit: contain;
+  background-color: #ffffff;
   margin-right: auto;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
