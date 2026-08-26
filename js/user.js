@@ -8,9 +8,11 @@ if (localStorage.getItem("fristname")){
     userD.innerHTML = localStorage.getItem("fristname") + " " + localStorage.getItem("lastname")
 }
 let logOutBtn = document.querySelector("#logout")
-logOutBtn.addEventListener("click", function(){
-    localStorage.clear();
-    setTimeout(() => {
-        window.location = "login.html";
-    } , 1500)
-})
+if (logOutBtn) {
+    logOutBtn.addEventListener("click", function(){
+        localStorage.clear();
+        setTimeout(() => {
+            window.location = "login.html";
+        } , 1500)
+    })
+}
