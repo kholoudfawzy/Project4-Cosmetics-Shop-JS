@@ -226,8 +226,10 @@ nav  ul#user_info {
 .card img {
   width: 100%;
   padding: 10px;
-  height: clamp(260px, 28vw, 340px);
+  height: 320px;
+  aspect-ratio: 4 / 5;
   object-fit: contain;
+  object-position: center;
   background-color: #ffffff;
   border-radius: 8px;
   border-top-left-radius: 8px;
@@ -592,7 +594,8 @@ nav ul#user_info li .badge {
   .cart_item img {
     width: 42%;
     min-height: 220px;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
   }
 
   .cart_item .card-data {
