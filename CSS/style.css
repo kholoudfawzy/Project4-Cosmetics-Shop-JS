@@ -226,7 +226,7 @@ nav  ul#user_info {
 .card img {
   width: 100%;
   padding: 10px;
-  height: clamp(220px, 25vw, 300px);
+  height: clamp(260px, 28vw, 340px);
   object-fit: contain;
   background-color: #ffffff;
   border-radius: 8px;
@@ -234,7 +234,20 @@ nav  ul#user_info {
   border-bottom-left-radius: 8px;
 }
 .card p.category {
-  margin-top: -10px;
+  margin-top: 0;
+}
+.card > h5,
+.card > h6,
+.card > p {
+  margin: 3px 10px;
+  line-height: 1.25;
+}
+.card > h5 {
+  font-size: 16px;
+}
+.card > h6 {
+  font-size: 13px;
+  font-weight: 500;
 }
 .cart_item img{
   height: 100%;
@@ -274,7 +287,7 @@ nav  ul#user_info {
   color: #ffffff;
   border-radius: 8px;
   border: 1px solid #aaaaaa;
-  padding: 8px;
+  padding: 7px 10px;
   display: inline;
 }
 .card:hover , .cart_item:hover {
@@ -547,7 +560,16 @@ nav ul#user_info li .badge {
   }
 
   .card img {
-    height: 240px;
+    height: 260px;
+  }
+
+  .card > h5 {
+    font-size: 15px;
+  }
+
+  .card > h6,
+  .card > p {
+    font-size: 13px;
   }
 
   .cart-container {
