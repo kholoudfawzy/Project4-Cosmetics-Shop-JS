@@ -25,7 +25,7 @@ let products = [
     { id: 4, title: "LANEIGE Lip Glowy Balm", detail:"Juicy Blueberry Hydration", category: "Skin Care", price: 18, imageUrl: "Images/Lip Glowy Balm.jpg" },
     { id: 5, title: "Herbivore Amethyst Polish", detail:"Exfoliating Glow", category: "Skin Care", price: 35, imageUrl: "Images/Exfoliating Body Polish.jpg" },
     { id: 6, title: "Herbivore Amethyst Set", detail:"Wellness Set - Natural Radianc", category: "Skin Care", price: 40, imageUrl: "Images/Glowing Skin Group5.jpg" },
-    { id: 7, title: "Lavender Fresh Conditioner", detail:"Soft & Easy Styling", category: "Hair Care", price: 20, imageUrl: "Images/conditioner.jpg" },
+    { id: 7, title: "Lavender Fresh Conditioner", detail:"Soft & Easy Styling", category: "Hair Care", price: 20, imageUrl: "Images/conditioner1.jpg" },
     { id: 8, title: "MIXIT LAB Hyaluronic set", detail:"Nourishing & Mattifyin", category: "Hair Care", price: 35, imageUrl: "Images/Hair Serum.jpg" },
     { id: 9, title: "Herbivore Bakuchiol Serum", detail:"Retinol + free Rose Quartz Roller", category: "Skin Care", price: 37, imageUrl: "Images/Glowing Skin Group4.jpg" }
 ];
