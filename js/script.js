@@ -182,7 +182,9 @@ let cartProducts = document.querySelector(".cart-products");
 shoppingCartIcon.addEventListener("click", opencart);
 function opencart() {
     if (cartProductDiv.innerHTML != "") {
-        cartProducts.style.display = (cartProducts.style.display === "block") ? "none" : "block";
+        let isOpen = cartProducts.style.display === "block";
+        cartProducts.style.display = isOpen ? "none" : "block";
+        shoppingCartIcon.classList.toggle("active", !isOpen);
     }
 }
 
@@ -303,6 +305,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     document.addEventListener("click", function() {
         cartProducts.style.display = "none";
+        shoppingCartIcon.classList.remove("active");
     });
 });
 
